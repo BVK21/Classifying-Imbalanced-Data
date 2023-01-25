@@ -4,7 +4,6 @@ import pandas as pd
 from textblob import Word
 import numpy as np
 import os
-import csv
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer,TfidfTransformer, CountVectorizer
